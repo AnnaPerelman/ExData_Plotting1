@@ -16,3 +16,4 @@ with(subset_my_data,{
         plot(Date,Global_reactive_power,type="l",xlab="datetime",ylab="Global_reactive_power")
         axis(side=2,at=c(0.1,0.2,0.3,0.4,0.5,0.6),font=0.8)
 })
+dev.off()
